@@ -17,16 +17,16 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
 
     <!--=-= Website Title =-=-->
-    <title>Convention Center Kushtia</title>
+    <title>Convention Center</title>
   </head>
   <body>
     <header class="l-header">
       <div class="container-fluid bg-white">
         <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">          
-              <a class="navbar-brand" href="#">Convention Center, Kushtia</a>
+          <nav class="navbar navbar-expand-md navbar-light">          
+              <a class="navbar-brand fw-bold custom-brand" href="#">Convention Center</a>
               <button
-                class="navbar-toggler"
+                class="navbar-toggler custome__navbar--toggle"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
@@ -34,18 +34,21 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span><img src="./assets/icons/custome-navbar.png" alt="Brand Logo"></span>
               </button>
               <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link href="#"> Home </a>
+                    <a class="nav-link custom__nav--link ms-md-4" href="#"> Home </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link custom__nav--link ms-md-4" href="#">About us</a>
                   </li>   
                   <li class="nav-item">
-                    <a class="nav-link">Disabled</a>
+                    <a class="nav-link custom__nav--link ms-md-4"  href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link custom__nav--link ms-md-4"  href="#">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -53,7 +56,37 @@
         </div>
       </div>
     </header>
-    <main class="l-main"></main>
+    <main class="l-main">
+      <section>
+        <div class="container-fluid p-0">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/images/banner.png" class="d-block w-100 custom__carousel--image" alt="...">
+                <div class="carousel-caption custom__carousel-caption">
+                  <h5 class="carousel-caption__title text-white">The perfect venue for your next event</h5>
+                  <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                  <button class="btn btn-light text-primary ">Book Now</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer class="l-footer"></footer>
 
     <!--=-= Bootstrap Bundle with Popper =-=-->

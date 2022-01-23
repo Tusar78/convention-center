@@ -1,5 +1,5 @@
 // Add "Poppins" font from fonts.google.com
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 // Custom Variables
 
@@ -9,4 +9,41 @@ $primary-font: "Poppins", sans-serif;
 // Base
 body {
   font-family: $primary-font;
+}
+
+// Necessary Custom Design
+
+// Navigation Area
+.custom-brand {
+  color: #3e3e3e;
+}
+
+.custome__navbar--toggle {
+  border: 0;
+}
+
+.custome__navbar--toggle:focus {
+  box-shadow: none;
+}
+
+// Just for higher precedency level
+.navbar-light .navbar-nav .custom__nav--link {
+  font-weight: 500;
+  color: #3e3e3e;
+}
+
+// Carousel Area
+.custom__carousel--image {
+  height: calc(100vh - 56px);
+  object-fit: cover;
+}
+
+.custom__carousel-caption {
+  left: 5%;
+  right: 5%;
+}
+
+.carousel-caption__title {
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
