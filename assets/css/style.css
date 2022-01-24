@@ -30,9 +30,44 @@ body {
 .custom__carousel-caption {
   left: 5%;
   right: 5%;
+  bottom: 8%;
 }
 
 .carousel-caption__title {
   font-size: 1.5rem;
-  line-height: 1.5;
+  line-height: 1.6;
+}
+
+.carousel-caption__text {
+  font-weight: 300;
+}
+
+.carousel-caption__btn {
+  padding: 0.625rem 2.71875rem;
+  color: #3f87f5;
+}
+
+.custom-prevNext {
+  top: -3rem;
+}
+
+.precious__title {
+  font-size: 1.25rem;
+  color: #0a0826;
+}
+
+.precious__text {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #6c6c6c;
+}
+
+.precious__btn {
+  padding: 0.625rem 1.5rem;
+  background-color: #3f87f5;
+}
+
+.precious__btn-icon {
+  width: 24px;
+  margin-left: 0.5rem;
 }

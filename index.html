@@ -23,66 +23,193 @@
     <header class="l-header">
       <div class="container-fluid bg-white">
         <div class="container">
-          <nav class="navbar navbar-expand-md navbar-light">          
-              <a class="navbar-brand fw-bold custom-brand" href="#">Convention Center</a>
-              <button
-                class="navbar-toggler custome__navbar--toggle"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span><img src="./assets/icons/custome-navbar.png" alt="Brand Logo"></span>
-              </button>
-              <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link custom__nav--link ms-md-4" href="#"> Home </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link custom__nav--link ms-md-4" href="#">About us</a>
-                  </li>   
-                  <li class="nav-item">
-                    <a class="nav-link custom__nav--link ms-md-4"  href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link custom__nav--link ms-md-4"  href="#">Subscribe</a>
-                  </li>
-                </ul>
-              </div>
+          <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand fw-bold custom-brand" href="#"
+              >Convention Center</a
+            >
+            <button
+              class="navbar-toggler custome__navbar--toggle"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span
+                ><img src="./assets/icons/custome-navbar.png" alt="Brand Logo"
+              /></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link custom__nav--link ms-md-4" href="#">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link custom__nav--link ms-md-4" href="#"
+                    >About us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link custom__nav--link ms-md-4" href="#"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link custom__nav--link ms-md-4" href="#"
+                    >Subscribe</a
+                  >
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
       </div>
     </header>
     <main class="l-main">
-      <section>
+      <section class="mb-2 mb-lg-5">
         <div class="container-fluid p-0">
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./assets/images/banner.png" class="d-block w-100 custom__carousel--image" alt="...">
+                <img
+                  src="./assets/images/banner.png"
+                  class="d-block w-100 custom__carousel--image"
+                  alt="..."
+                />
                 <div class="carousel-caption custom__carousel-caption">
-                  <h5 class="carousel-caption__title text-white">The perfect venue for your next event</h5>
-                  <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
-                  <button class="btn btn-light text-primary ">Book Now</button>
+                  <h5 class="carousel-caption__title">
+                    The perfect venue for your next event
+                  </h5>
+                  <p class="carousel-caption__text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                  </p>
+                  <button
+                    class="btn btn-light fw-bold text-primary carousel-caption__btn"
+                  >
+                    Book Now
+                  </button>
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <button
+              class="carousel-control-prev custom-prevNext"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <button
+              class="carousel-control-next custom-prevNext"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
               <span class="visually-hidden">Next</span>
             </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Precious Section -->
+      <section class="pt-5">
+        <div class="container">
+          <div class="row precious">
+            <div class="order-2 col-12 col-md-6">
+              <div>
+                <img
+                  src="./assets/images/wedding.png"
+                  alt=""
+                  class="img-fluid"
+                />
+                <button
+                  class="d-block d-md-none mt-4 mx-auto rounded-0 d-flex align-items-center btn btn-primary precious__btn"
+                >
+                  Explore Our Album
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 precious__btn-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="order-1 col-12 col-md-6">
+              <div class="precious__description">
+                <h2 class="fw-bold pb-2 precious__title">
+                  Every moment is Precious
+                </h2>
+                <p class="precious__text pb-4">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                <button class="d-none d-md-block btn btn-primary precious__btn">
+                  Explore Our Album
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
