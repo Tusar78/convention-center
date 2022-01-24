@@ -1,5 +1,5 @@
 // Add "Poppins" font from fonts.google.com
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600;700&display=swap");
 
 // Custom Variables
 $primary-color: #3f87f5;
@@ -105,7 +105,33 @@ body {
 
 // Client Section
 .client__title {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #222221;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #222221;
+}
+
+.custome__accordion-button {
+  border-top: 2px solid #d5e5fb;
+  color: #383838;
+  font-weight: 500;
+}
+
+.custome__accordion-button:focus {
+  box-shadow: none;
+  border-top: 2px solid #d5e5fb;
+}
+
+.custom__accordion-item {
+  border: 2px solid #d5e5fb;
+  border-radius: 0.25rem;
+}
+
+//Footer Area
+.l-footer {
+  font-family: "Manrope", sans-serif;
+}
+
+.footer__social-title  {
+    font-size: 1.125rem;
+    font-weight: 500;
 }
