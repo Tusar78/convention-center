@@ -37,8 +37,8 @@ body {
 
 // Carousel Area
 .custom__carousel--image {
-  height: calc(100vh - 56px);
   min-height: 560px;
+  height: calc(100vh - 56px);
   object-fit: cover;
 }
 
@@ -141,6 +141,10 @@ body {
 
 // Media Query
 @media screen and (min-width: 767.98px) {
+  .custom__carousel--image {
+    height: calc(100vh - 75px);
+  }
+
   .navbar-light .custom-brand {
     font-size: 1.375rem;
   }
@@ -174,9 +178,16 @@ body {
     left: 12%;
     right: 12%;
   }
-  
+
   .precious__title,
   .client__title {
     font-size: 2.375rem;
+  }
+}
+
+@media screen and (min-width: 1199.98px) {
+  .custom__carousel-caption {
+    left: 15%;
+    right: 15%;
   }
 }
