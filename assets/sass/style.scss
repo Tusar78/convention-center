@@ -84,3 +84,28 @@ body {
   width: 24px;
   margin-left: 0.5rem;
 }
+
+.client__card-text {
+  color: #6c6c6c;
+}
+
+.client__card-title,
+.client__card-subtitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.client__card-title {
+  color: #0c1920;
+}
+
+.client__card-subtitle {
+  color: #747474;
+}
+
+// Client Section
+.client__title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #222221;
+}
