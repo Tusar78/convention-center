@@ -106,6 +106,70 @@ body {
   color: #747474;
 }
 
+// Package Section
+.package-item {
+  cursor: pointer;
+}
+
+.package__body {
+  // padding: 6rem 0.5rem 0;
+  padding: 1rem 0.5rem 0;
+}
+
+.col:nth-child(3) .package-item {
+  padding: 2.5rem 0.5rem 2.75rem;
+  border-radius: 2rem;
+  background: $primary-color url(../icons/watermark.svg) no-repeat;
+  background-position: top right -2rem;
+
+  .package__title,
+  .package__subtitle,
+  .package__text,
+  .package__list-item {
+    color: #fff;
+  }
+}
+
+.package__title,
+.package__subtitle {
+  font-size: 2.25rem;
+  color: #231d4f;
+  font-weight: 700;
+}
+
+.package__subtitle {
+  font-size: 1.5rem;
+}
+
+.package__text {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #848199;
+}
+
+.package__list-item {
+  border: 0;
+  font-size: 0.875rem;
+  padding-bottom: 0.625rem 1rem;
+  background-color: transparent;
+}
+
+.package__footer {
+  background-color: transparent;
+}
+
+.package__btn {
+  padding: 0.625rem 3.5rem;
+  font-size: 0.875rem;
+  background-color: #fffeff;
+  color: $primary-color;
+  font-weight: 600;
+
+  &:hover {
+    color: #3f87f5;
+  }
+}
+
 // Client Section
 .client__title {
   font-size: 1.25rem;
@@ -170,6 +234,10 @@ body {
 
   .precious__text {
     font-size: 1rem;
+  }
+
+  .col:nth-child(4) .package__body {
+    padding: 6rem 0.5rem 0;
   }
 }
 
