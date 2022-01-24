@@ -25,6 +25,7 @@ body {
 
 .custom__carousel--image {
   height: calc(100vh - 56px);
+  min-height: 560px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -138,5 +139,23 @@ body {
   }
   .custom-prevNext {
     top: 0;
+  }
+  .precious__title,
+  .client__title {
+    font-size: 1.5rem;
+  }
+  .precious__text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 991.98px) {
+  .custom__carousel-caption {
+    left: 12%;
+    right: 12%;
+  }
+  .precious__title,
+  .client__title {
+    font-size: 2.375rem;
   }
 }
