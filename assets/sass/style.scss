@@ -251,11 +251,30 @@ body {
   .client__title {
     font-size: 2.375rem;
   }
+
+  .col:nth-child(1),
+  .col:nth-child(2) {
+    .package__body {
+      padding: 6rem 0.5rem 0;
+    }
+  }
+
+  .col:nth-child(4) {
+    .package__body {
+      padding: 1rem 0.5rem 0;
+    }
+  }
 }
 
 @media screen and (min-width: 1199.98px) {
   .custom__carousel-caption {
     left: 15%;
     right: 15%;
+  }
+
+  .col:nth-child(4) {
+    .package__body {
+      padding: 6rem 0.5rem 0;
+    }
   }
 }
