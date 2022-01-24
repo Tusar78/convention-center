@@ -54,6 +54,14 @@ body {
   top: -3rem;
 }
 
+.custom__toast {
+  max-width: 265px;
+  border-left: 5px solid #3f87f5;
+  background: #fff;
+  top: 0;
+  right: 1rem;
+}
+
 .precious__title {
   font-size: 1.25rem;
   color: #0a0826;
