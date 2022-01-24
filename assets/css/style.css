@@ -3,8 +3,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.custom-brand {
+.navbar-light .custom-brand {
   color: #3e3e3e;
+  font-size: 1rem;
 }
 
 .custome__navbar--toggle {
@@ -17,6 +18,7 @@ body {
 }
 
 .navbar-light .navbar-nav .custom__nav--link {
+  font-size: 1rem;
   font-weight: 500;
   color: #3e3e3e;
 }
@@ -120,4 +122,21 @@ body {
 .footer__social-title {
   font-size: 1.125rem;
   font-weight: 500;
+}
+
+@media screen and (min-width: 767.98px) {
+  .navbar-light .custom-brand {
+    font-size: 1.375rem;
+  }
+  .carousel-caption__title {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  .carousel-caption__text {
+    font-weight: 300;
+    font-size: 1.25rem;
+  }
+  .custom-prevNext {
+    top: 0;
+  }
 }
